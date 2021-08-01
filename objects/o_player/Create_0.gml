@@ -5,8 +5,13 @@ action_button = ""
 x_ = 0
 y_ = 0
 player_facing_ = player_facing.right
-create_hand_ = false
-catch_ = false
+
+state_ = player_states.normal
+
+create_hand_ = true
+throw_object_ = false
+
+
 
 
 enum player_facing {
@@ -16,3 +21,8 @@ enum player_facing {
 	right
 }
 
+enum player_states{
+	normal,
+	throw_,
+	catch_
+}

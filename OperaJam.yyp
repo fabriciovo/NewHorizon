@@ -14,10 +14,11 @@
     {"id":{"name":"s_noone","path":"sprites/s_noone/s_noone.yy",},"order":1,},
     {"id":{"name":"background","path":"sprites/background/background.yy",},"order":3,},
     {"id":{"name":"o_human","path":"objects/o_human/o_human.yy",},"order":8,},
+    {"id":{"name":"o_human_throw","path":"objects/o_human_throw/o_human_throw.yy",},"order":9,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"o_player_2","path":"objects/o_player_2/o_player_2.yy",},"order":1,},
     {"id":{"name":"s_player_2","path":"sprites/s_player_2/s_player_2.yy",},"order":1,},
     {"id":{"name":"o_manager","path":"objects/o_manager/o_manager.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -34,7 +35,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
