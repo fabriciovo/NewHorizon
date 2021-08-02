@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-
+player_type = o_player_2
 action_button = "K"

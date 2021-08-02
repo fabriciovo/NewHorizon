@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-a_ = false
-
+back_ = false
+player_ = noone
+alarm[0] = 60

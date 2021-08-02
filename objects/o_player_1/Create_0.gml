@@ -5,3 +5,4 @@
 event_inherited();
 
 action_button = "F"
+player_type = o_player_1

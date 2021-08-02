@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-catch_ = true
+var human = instance_create_layer(x,y,"Instances",o_human_catch)
+human.player_ = player_
+instance_destroy()

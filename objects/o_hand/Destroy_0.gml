@@ -1,3 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-o_player.throw_object_ = true
+if(back_){
+player_.throw_object_ = true
+}
+
+if(!back_){
+player_.create_hand_ = true
+}
