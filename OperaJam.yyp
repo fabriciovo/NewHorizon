@@ -1,9 +1,9 @@
 {
   "resources": [
-    {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":0,},
     {"id":{"name":"o_player_1","path":"objects/o_player_1/o_player_1.yy",},"order":0,},
+    {"id":{"name":"o_tank","path":"objects/o_tank/o_tank.yy",},"order":1,},
     {"id":{"name":"s_player_1","path":"sprites/s_player_1/s_player_1.yy",},"order":0,},
-    {"id":{"name":"o_bullets","path":"objects/o_bullets/o_bullets.yy",},"order":1,},
+    {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":1,},
     {"id":{"name":"s_arm","path":"sprites/s_arm/s_arm.yy",},"order":2,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":0,},
     {"id":{"name":"o_human_catch","path":"objects/o_human_catch/o_human_catch.yy",},"order":2,},
@@ -56,7 +56,7 @@
     {"folderPath":"folders/Sprites/Player.yy","order":0,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Player.yy","order":4,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Game.yy","order":5,"resourceVersion":"1.0","name":"Game","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Enemy.yy","order":6,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Tanks.yy","order":6,"resourceVersion":"1.0","name":"Tanks","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Solids.yy","order":7,"resourceVersion":"1.0","name":"Solids","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Humans.yy","order":10,"resourceVersion":"1.0","name":"Humans","tags":[],"resourceType":"GMFolder",},
   ],
