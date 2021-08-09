@@ -1,4 +1,4 @@
 event_inherited();
-targets_ = [o_grass, o_enemy];
+targets_ = [o_enemy];
 knockback_ = 2;
 damage_ = 2;

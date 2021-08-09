@@ -4,7 +4,7 @@
   "parentRoom": null,
   "views": [
     {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":320,"hview":180,"xport":0,"yport":0,"wport":640,"hport":360,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":{"name":"o_player_1","path":"objects/o_player_1/o_player_1.yy",},},
-    {"inherit":false,"visible":false,"xview":400,"yview":0,"wview":320,"hview":180,"xport":0,"yport":0,"wport":640,"hport":360,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":400,"yview":0,"wview":320,"hview":180,"xport":0,"yport":0,"wport":640,"hport":360,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":{"name":"o_player_2","path":"objects/o_player_2/o_player_2.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":320,"hview":180,"xport":0,"yport":0,"wport":640,"hport":360,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":{"name":"o_player_1","path":"objects/o_player_1/o_player_1.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},

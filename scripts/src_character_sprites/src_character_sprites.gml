@@ -5,6 +5,8 @@ function src_character_sprites(){
 
 	switch(character_){
 		case options.character_1:
+			
+			
 			sprite_[player.move, dir.right] = s_shooter;
 			sprite_[player.move, dir.up] = s_shooter;
 			sprite_[player.move, dir.left] = s_shooter;
@@ -22,6 +24,18 @@ function src_character_sprites(){
 			sprite_[player.action, dir.up] = s_shooter;
 			sprite_[player.action, dir.left] = s_shooter;
 			sprite_[player.action, dir.down] = s_shooter;
+			
+			
+			sprite_[player.evade, dir.right] = s_shooter;
+			sprite_[player.evade, dir.up] = s_shooter;
+			sprite_[player.evade, dir.left] = s_shooter;
+			sprite_[player.evade, dir.down] = s_shooter;
+			
+			
+			sprite_[player.tower, dir.right] = s_shooter;
+			sprite_[player.tower, dir.up] = s_shooter;
+			sprite_[player.tower, dir.left] = s_shooter;
+			sprite_[player.tower, dir.down] = s_shooter;
 		break;
 		
 		case options.character_2:
@@ -42,6 +56,18 @@ function src_character_sprites(){
 			sprite_[player.action, dir.up] = s_fighter;
 			sprite_[player.action, dir.left] = s_fighter;
 			sprite_[player.action, dir.down] = s_fighter;
+			
+						
+			sprite_[player.evade, dir.right] = s_fighter;
+			sprite_[player.evade, dir.up] = s_fighter;
+			sprite_[player.evade, dir.left] = s_fighter;
+			sprite_[player.evade, dir.down] = s_fighter;
+						
+			sprite_[player.tower, dir.right] = s_fighter;
+			sprite_[player.tower, dir.up] = s_fighter;
+			sprite_[player.tower, dir.left] = s_fighter;
+			sprite_[player.tower, dir.down] = s_fighter;
+			
 		break;
 		
 		case options.character_3:

@@ -7,9 +7,15 @@ max_speed_ = 1.5;
 direction_facing_ = dir.right;
 player_manager = o_player_manager
 character_ = player_manager.character_
+action_one = noone
+action_two = noone
+action_three = noone
+
+
 
 alarm[1] = global.one_second;
-
+roll_direction_ = 0;
+roll_speed_ = 6;
 enum player {
 	move,
 	action,
@@ -32,7 +38,6 @@ enum action {
 
 starting_state_ = player.move;
 state_ = starting_state_;
-
 
 
 src_character_sprites();
