@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "s_heart_ui",
-    "path": "sprites/s_heart_ui/s_heart_ui.yy",
+    "name": "s_tower_shooter",
+    "path": "sprites/s_tower_shooter/s_tower_shooter.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_tower",
+    "path": "objects/o_tower/o_tower.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Tower",
+    "path": "folders/Objects/Tower.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_tower_shooter",

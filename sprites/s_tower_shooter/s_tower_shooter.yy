@@ -1,4 +1,8 @@
 {
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -8,25 +12,21 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 3,
-  "bbox_right": 13,
+  "bbox_right": 12,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 23,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 16,
-  "height": 32,
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
+  "height": 24,
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"507a32e3-2bc2-45f9-b5c7-01a408936e4a","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"507a32e3-2bc2-45f9-b5c7-01a408936e4a","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"LayerId":{"name":"1a2906f1-17d2-4d96-8c26-ab38300aa90c","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_tower_shooter","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"resourceVersion":"1.0","name":"507a32e3-2bc2-45f9-b5c7-01a408936e4a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7f3190e1-aff8-406c-b6fb-63196109ad7a","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7f3190e1-aff8-406c-b6fb-63196109ad7a","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"LayerId":{"name":"4024076e-8ef4-40bf-a47a-3ab9cfda1a89","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_tower_shooter","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"resourceVersion":"1.0","name":"7f3190e1-aff8-406c-b6fb-63196109ad7a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_tower_shooter","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1801c264-ac63-4d6d-a680-f9637d96fe52","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"507a32e3-2bc2-45f9-b5c7-01a408936e4a","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cc57e433-4280-49c7-9982-c4e43b783a98","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f3190e1-aff8-406c-b6fb-63196109ad7a","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 8,
-    "yorigin": 16,
+    "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_tower_shooter","path":"sprites/s_tower_shooter/s_tower_shooter.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1a2906f1-17d2-4d96-8c26-ab38300aa90c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4024076e-8ef4-40bf-a47a-3ab9cfda1a89","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

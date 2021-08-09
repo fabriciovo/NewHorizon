@@ -5,8 +5,8 @@ if image_angle == 0 or image_angle == 180 {
 	}
 }
 
-/*
-var _laser_hit = instance_create_layer(x, y-7, "Instances", o_laser_hit);
+
+var _laser_hit = instance_create_layer(x, y-7, "Instances", o_lazer_hit);
 _laser_hit.image_angle = image_angle;
 with (_laser_hit) {
 	var _x_dir = sign(lengthdir_x(1, image_angle));
@@ -19,4 +19,3 @@ with (_laser_hit) {
 	y += _y_dir;
 }
 instance_destroy();
-*/

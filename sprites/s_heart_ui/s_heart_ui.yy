@@ -1,4 +1,8 @@
 {
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -16,10 +20,6 @@
   "For3D": false,
   "width": 14,
   "height": 11,
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
   "swatchColours": [],
   "gridX": 0,
   "gridY": 0,

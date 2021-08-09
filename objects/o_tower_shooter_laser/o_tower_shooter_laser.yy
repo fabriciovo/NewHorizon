@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_grass",
+    "path": "sprites/s_grass/s_grass.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Projectiles",
-    "path": "folders/Objects/Projectiles.yy",
+    "name": "Tower",
+    "path": "folders/Objects/Tower.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object41",
+  "name": "o_tower_shooter_laser",
   "tags": [],
   "resourceType": "GMObject",
 }

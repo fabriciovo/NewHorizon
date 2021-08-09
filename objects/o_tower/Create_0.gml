@@ -1,11 +1,11 @@
 /// @description Insert description here
-// You can write your code in this editor
-hp_ = 3
-distance_ = 5
-damage_ = 1
-target_ = o_enemy
+// You can write your code in this 
+depth = -bbox_bottom;
 
+hp_ = 3
+distance_ = 50
 state_ = tower_state.idle
+
 
 enum tower_state {
 	idle,
