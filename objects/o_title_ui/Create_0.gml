@@ -5,7 +5,7 @@ enum options {
 	character_3
 }
 instance_create_layer(0,0,"Instances",o_player_manager_1)
-//instance_create_layer(x,y,"Instances",o_player_manager_2)
+instance_create_layer(x,y,"Instances",o_player_manager_2)
 //instance_create_layer(x,y,"Instances",o_player_manager_2)
 player_1 = o_player_manager_1;
 player_2 = noone

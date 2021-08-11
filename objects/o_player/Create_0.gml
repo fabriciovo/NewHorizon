@@ -7,13 +7,13 @@ max_speed_ = 1.5;
 direction_facing_ = dir.right;
 player_manager = o_player_manager
 character_ = player_manager.character_
-action_one = noone
-action_two = noone
-action_three = noone
+
+action_one_alarm_ = true
+action_two_alarm_ = true
+action_three_alarm_ = true
 
 
 
-alarm[1] = global.one_second;
 roll_direction_ = 0;
 roll_speed_ = 6;
 enum player {
@@ -41,26 +41,3 @@ state_ = starting_state_;
 
 
 src_character_sprites();
-/*
-sprite_[player.evade, dir.right] = s_player_roll_right;
-sprite_[player.evade, dir.up] = s_player_roll_up;
-sprite_[player.evade, dir.left] = s_player_roll_right;
-sprite_[player.evade, dir.down] = s_player_roll_down;
-
-
-
-sprite_[player.bow, dir.right] = s_player_bow_right;
-sprite_[player.bow, dir.up] = s_player_bow_up;
-sprite_[player.bow, dir.left] = s_player_bow_right;
-sprite_[player.bow, dir.down] = s_player_bow_down;
-
-sprite_[player.found_item, dir.right] = s_player_found_item;
-sprite_[player.found_item, dir.up] = s_player_found_item;
-sprite_[player.found_item, dir.left] = s_player_found_item;
-sprite_[player.found_item, dir.down] = s_player_found_item;
-
-sprite_[player.bomb, dir.right] = s_player_run_right;
-sprite_[player.bomb, dir.up] = s_player_run_up;
-sprite_[player.bomb, dir.left] = s_player_run_right;
-sprite_[player.bomb, dir.down] = s_player_run_down;
-*/

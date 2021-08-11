@@ -19,13 +19,18 @@ if _x_input == 0 and _y_input == 0 {
 	roll_direction_ = _input_direction;
 }
 
-if(player_manager.action_one_pressed_){
+if(player_manager.action_one_pressed_ and action_one_alarm_ ){
+	action_one_alarm_ = false
+
 	state_ = player.action
 }
-if(player_manager.action_two_pressed_){
+if(player_manager.action_two_pressed_ and action_two_alarm_){
+	action_two_alarm_ = false
+
 	state_ = player.evade
 }
-if(player_manager.action_three_pressed_){
+if(player_manager.action_three_pressed_ and action_three_alarm_){
+	action_three_alarm_ = false
 	state_ = player.tower
 }
 

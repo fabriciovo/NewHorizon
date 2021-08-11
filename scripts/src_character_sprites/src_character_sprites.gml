@@ -88,6 +88,17 @@ function src_character_sprites(){
 			sprite_[player.action, dir.up] = s_bomber;
 			sprite_[player.action, dir.left] = s_bomber;
 			sprite_[player.action, dir.down] = s_bomber;
+			
+			sprite_[player.evade, dir.right] = s_bomber;
+			sprite_[player.evade, dir.up] = s_bomber;
+			sprite_[player.evade, dir.left] = s_bomber;
+			sprite_[player.evade, dir.down] = s_bomber;
+			
+			
+			sprite_[player.tower, dir.right] = s_bomber;
+			sprite_[player.tower, dir.up] = s_bomber;
+			sprite_[player.tower, dir.left] = s_bomber;
+			sprite_[player.tower, dir.down] = s_bomber;
 		break;
 	}
 }

@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "s_grass",
-    "path": "sprites/s_grass/s_grass.yy",
+    "name": "s_laser",
+    "path": "sprites/s_laser/s_laser.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_laser",
+    "path": "objects/o_laser/o_laser.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

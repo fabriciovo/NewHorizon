@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7a11f39a-6c90-420b-8218-8a364d101c1c","path":"sprites/Sprite44/Sprite44.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7a11f39a-6c90-420b-8218-8a364d101c1c","path":"sprites/Sprite44/Sprite44.yy",},"LayerId":{"name":"a26471f8-7b4f-4508-86bd-23cbb2a2b291","path":"sprites/Sprite44/Sprite44.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite44","path":"sprites/Sprite44/Sprite44.yy",},"resourceVersion":"1.0","name":"7a11f39a-6c90-420b-8218-8a364d101c1c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6ea4a429-3e34-46b0-9e15-e686c658fdda","path":"sprites/s_ui_tower_shooter/s_ui_tower_shooter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6ea4a429-3e34-46b0-9e15-e686c658fdda","path":"sprites/s_ui_tower_shooter/s_ui_tower_shooter.yy",},"LayerId":{"name":"c010ad70-1dfb-41e3-aba8-e55e27bb3831","path":"sprites/s_ui_tower_shooter/s_ui_tower_shooter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_ui_tower_shooter","path":"sprites/s_ui_tower_shooter/s_ui_tower_shooter.yy",},"resourceVersion":"1.0","name":"6ea4a429-3e34-46b0-9e15-e686c658fdda","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite44","path":"sprites/Sprite44/Sprite44.yy",},
+    "spriteId": {"name":"s_ui_tower_shooter","path":"sprites/s_ui_tower_shooter/s_ui_tower_shooter.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,10 +41,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4599b01a-8ed4-4089-9235-5bcc592d56b3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a11f39a-6c90-420b-8218-8a364d101c1c","path":"sprites/Sprite44/Sprite44.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"472acf55-5978-4ce3-99f6-4e634fec66a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6ea4a429-3e34-46b0-9e15-e686c658fdda","path":"sprites/s_ui_tower_shooter/s_ui_tower_shooter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -58,22 +58,22 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite44","path":"sprites/Sprite44/Sprite44.yy",},
+    "parent": {"name":"s_ui_tower_shooter","path":"sprites/s_ui_tower_shooter/s_ui_tower_shooter.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite44",
+    "name": "s_ui_tower_shooter",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a26471f8-7b4f-4508-86bd-23cbb2a2b291","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c010ad70-1dfb-41e3-aba8-e55e27bb3831","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "OperaJam3.0",
-    "path": "OperaJam3.0.yyp",
+    "name": "UI Actions Sprites",
+    "path": "folders/Sprites/UI Sprites/UI Actions Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite44",
+  "name": "s_ui_tower_shooter",
   "tags": [],
   "resourceType": "GMSprite",
 }

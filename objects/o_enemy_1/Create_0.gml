@@ -1,5 +1,7 @@
 event_inherited();
 initialize_movement_entity(0.5, .5, o_solid);
+max_health_ = 3
+health_ = max_health_;
 
 enum porcupine {
 	hit,

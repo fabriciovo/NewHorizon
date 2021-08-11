@@ -8,12 +8,12 @@ switch(character_){
 			state_ = player.move;		
 	break;
 	case options.character_2:
-	instance_create_layer(x, y, "Instances", o_mineral_one);
+			instance_create_layer(x, y, "Instances", o_tower_fighter);
 		state_ = player.move;	
 
 		break;
 		case options.character_3:
-
+			instance_create_layer(x, y, "Instances", o_tower_bomber);
 			state_ = player.move;
 
 		break;

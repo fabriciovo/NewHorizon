@@ -5,6 +5,8 @@ enum enemy_3 {
 	move,
 	attack,
 }
+max_health_ = 3
+health_ = max_health_;
 
 starting_state_ = enemy_3.move;
 state_ = starting_state_;

@@ -32,6 +32,7 @@ switch(character_){
 			var _damage = 1;
 			var _knockback = 8;
 			var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [o_enemy, o_mineral_one, o_mineral_two], _damage, _knockback);
+			_hitbox.visible = true
 			audio_play_sound(a_swipe, 8, false);
 	
 			switch direction_facing_ {
