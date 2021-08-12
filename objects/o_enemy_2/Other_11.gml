@@ -9,5 +9,9 @@ if alarm[1] <= 0 {
 }
 
 if instance_exists(o_player) and distance_to_object(o_player) <= range_ {
-	state_ = bat.attack;	
+	state_ = enemy_2.attack;	
+}
+
+if instance_exists(o_tower) and distance_to_object(o_tower) <= range_ {
+	state_ = enemy_2.attack_tower;	
 }

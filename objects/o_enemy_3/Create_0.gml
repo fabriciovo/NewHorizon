@@ -7,7 +7,9 @@ enum enemy_3 {
 }
 max_health_ = 3
 health_ = max_health_;
-
+knockback_ = 6
+damage_ = 5
+targets_ = [o_player]
 starting_state_ = enemy_3.move;
 state_ = starting_state_;
 

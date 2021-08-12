@@ -2,8 +2,9 @@ event_inherited();
 initialize_movement_entity(0.5, .5, o_solid);
 max_health_ = 3
 health_ = max_health_;
-
-enum porcupine {
+knockback_ = 3
+damage_ = 5
+enum enemy_1 {
 	hit,
 	idle,
 	move,
@@ -11,7 +12,7 @@ enum porcupine {
 	wait
 }
 
-starting_state_ = porcupine.idle;
+starting_state_ = enemy_1.idle;
 state_ = starting_state_;
 
 image_index = 0;

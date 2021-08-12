@@ -1,5 +1,5 @@
 event_inherited();
 targets_ = [o_enemy];
-knockback_ = 2;
-damage_ = 2;
+knockback_ = 0;
+damage_ = 0;
 hp_ = 1;

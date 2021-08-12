@@ -6,8 +6,11 @@ if hurtbox_entity_can_be_hit_by(other) {
 	var _direction = point_direction(other.x, other.y, x, y);
 	set_movement(_direction, other.knockback_);
 	state_ = player.hit;
-	audio_play_sound(a_hurt, 6, false);
+	//audio_play_sound() TODO -- nosso audio(a_hurt, 6, false);
+	var _info = instance_create_layer(x,y,"Effects",o_show_info);
+	_info.value_ = other.damage_
 	if other.destroy_on_contact_ {
 		instance_destroy(other);
 	}
+	
 }

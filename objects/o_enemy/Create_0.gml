@@ -5,6 +5,8 @@ image_speed = 0;
 
 max_health_ = 2;
 health_ = max_health_;
+knockback_ = 0
+damage_ = 0
 
 starting_state_ = noone;
 state_ = starting_state_;

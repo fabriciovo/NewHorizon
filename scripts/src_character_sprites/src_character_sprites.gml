@@ -5,8 +5,7 @@ function src_character_sprites(){
 
 	switch(character_){
 		case options.character_1:
-			
-			
+					
 			sprite_[player.move, dir.right] = s_shooter;
 			sprite_[player.move, dir.up] = s_shooter;
 			sprite_[player.move, dir.left] = s_shooter;
@@ -39,6 +38,7 @@ function src_character_sprites(){
 		break;
 		
 		case options.character_2:
+		
 			sprite_[player.move, dir.right] = s_fighter;
 			sprite_[player.move, dir.up] = s_fighter;
 			sprite_[player.move, dir.left] = s_fighter;

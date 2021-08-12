@@ -12,7 +12,7 @@ move_movement_entity(true);
 
 if speed_ == 0 {
 	alarm[1] = random_range(1, 3) * global.one_second;
-	state_ = porcupine.idle;
+	state_ = enemy_1.idle;
 }
 
-porcupine_attack();
+enemy_1_attack();

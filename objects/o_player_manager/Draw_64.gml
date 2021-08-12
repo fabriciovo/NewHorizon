@@ -7,6 +7,7 @@ if(room == r_world){
 
 
 	draw_text(player_health_x,player_health_y, string(player_health) + " - " + string(player_max_health));
+	draw_text(player_health_x,player_health_y-40, string(player_damage) + " - " + string("Player Damage"));
 
 
 	var _material_string = string(player_materials);
@@ -31,7 +32,7 @@ if(room == r_world){
 
 }
 
-switch(character_){
+switch(character){
 
 	case options.character_1:			
 			
