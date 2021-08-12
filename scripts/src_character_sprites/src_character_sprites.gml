@@ -5,7 +5,8 @@ function src_character_sprites(){
 
 	switch(character_){
 		case options.character_1:
-					
+			
+			sound_= OperaShootMove;
 			sprite_[player.move, dir.right] = s_shooter;
 			sprite_[player.move, dir.up] = s_shooter;
 			sprite_[player.move, dir.left] = s_shooter;
@@ -39,6 +40,7 @@ function src_character_sprites(){
 		
 		case options.character_2:
 		
+			sound_= OperaShootMove;
 			sprite_[player.move, dir.right] = s_fighter;
 			sprite_[player.move, dir.up] = s_fighter;
 			sprite_[player.move, dir.left] = s_fighter;
@@ -71,6 +73,7 @@ function src_character_sprites(){
 		break;
 		
 		case options.character_3:
+			sound_= OperaShootMove;
 			sprite_[player.move, dir.right] = s_bomber;
 			sprite_[player.move, dir.up] = s_bomber;
 			sprite_[player.move, dir.left] = s_bomber;

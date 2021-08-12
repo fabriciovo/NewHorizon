@@ -1,5 +1,5 @@
 global.one_second = game_get_speed(gamespeed_fps);
-
+audio_play_sound(OperaJamSong,1000,true)
 global.destroyed = [];
 global.level = 1
 global.highscore = 0

@@ -15,7 +15,8 @@ if(player_1 && player_1.character < 0){
 	
 
 	if _last_index != index_1 {
-		//audio_play_sound() TODO -- nosso audio(a_menu_move, 1, false);	
+		//audio_play_sound() TODO -- nosso audio(a_menu_move, 1, false);
+		audio_play_sound(MenuSelect,1,false);
 	}
 	
 		
@@ -24,17 +25,20 @@ if(player_1 && player_1.character < 0){
 			case options.character_1:
 				//audio_play_sound() TODO -- nosso audio(a_menu_select, 3, false);
 				//room_goto(r_world);
+				audio_play_sound(MenuConfirm,3,false);
 				player_1.character = options.character_1
 				
 				break;
 				
 			case options.character_2:
 				//audio_play_sound() TODO -- nosso audio(a_menu_select, 3, false);
+				audio_play_sound(MenuConfirm,3,false);
 				player_1.character = options.character_2
 				break;
 				
 			case options.character_3:
 				//audio_play_sound() TODO -- nosso audio(a_menu_select, 3, false);
+				audio_play_sound(MenuConfirm,3,false);
 				player_1.character = options.character_3
 				break;
 		}
@@ -61,22 +65,26 @@ if(player_2 && player_2.character < 0){
 
 	if _last_index != index_2{
 		//audio_play_sound() TODO -- nosso audio(a_menu_move, 1, false);	
+		audio_play_sound(MenuSelect,1,false);
 	}
 
 	if player_2.action_one_pressed_ {
 		switch (index_2) {
 			case options.character_1:
 				//audio_play_sound() TODO -- nosso audio(a_menu_select, 3, false);
+				audio_play_sound(MenuConfirm,3,false);
 				player_2.character = options.character_1
 				break;
 				
 			case options.character_2:
 				//audio_play_sound() TODO -- nosso audio(a_menu_select, 3, false);
+				audio_play_sound(MenuConfirm,3,false);
 				player_2.character = options.character_2
 				break;
 				
 			case options.character_3:
 				//audio_play_sound() TODO -- nosso audio(a_menu_select, 3, false);
+				audio_play_sound(MenuConfirm,3,false);
 				player_2.character = options.character_3
 				break;
 		}
@@ -102,7 +110,7 @@ if(keyboard_check_pressed(vk_space)){
 
 
 if(keyboard_check_pressed(vk_enter) && player_1.character > -1){
-
+audio_play_sound(MenuConfirm,3,false);
 		room_goto(r_world)
 	
 }

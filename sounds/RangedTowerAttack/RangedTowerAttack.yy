@@ -1,6 +1,6 @@
 {
-  "compression": 1,
-  "volume": 0.5,
+  "compression": 0,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "OperaJamSong.mp3",
-  "duration": 97.8023758,
+  "soundFile": "RangedTowerAttack.mp3",
+  "duration": 0.39175,
   "parent": {
     "name": "GameJamOriginal",
     "path": "folders/Sounds/GameJamOriginal.yy",
   },
   "resourceVersion": "1.0",
-  "name": "OperaJamSong",
+  "name": "RangedTowerAttack",
   "tags": [],
   "resourceType": "GMSound",
 }

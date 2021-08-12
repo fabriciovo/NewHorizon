@@ -8,6 +8,7 @@ max_speed_ = 1.5;
 direction_facing_ = dir.right;
 player_manager = noone;
 character_ = -1;
+sound_=noone;
 
 
 
