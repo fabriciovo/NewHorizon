@@ -2,6 +2,7 @@
 // You can write your code in this editor
 /// @description Insert description here
 // You can write your code in this editor
+draw_text(150,100, string(character))
 
 if(room == r_world && !global.intro_animation){
 	var _gui_width = display_get_gui_width();

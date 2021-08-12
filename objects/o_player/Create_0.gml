@@ -6,8 +6,8 @@ image_speed = 0;
 acceleration_ = .5;
 max_speed_ = 1.5;
 direction_facing_ = dir.right;
-player_manager = o_player_manager;
-character_ = player_manager.character;
+player_manager = noone;
+character_ = -1;
 
 action_one_alarm_ = true;
 action_two_alarm_ = true;
@@ -39,4 +39,3 @@ starting_state_ = player.move;
 state_ = starting_state_;
 
 
-src_character_sprites();

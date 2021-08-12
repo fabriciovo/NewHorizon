@@ -5,3 +5,5 @@
 event_inherited();
 
 player_manager = o_player_manager_1
+character_ = player_manager.character
+src_character_sprites();

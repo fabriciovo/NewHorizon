@@ -3,10 +3,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_text(100,100, string(character))
+
+
 if(room == r_world and !global.intro_animation){
 	var _gui_width = display_get_gui_width();
 	var _gui_height = display_get_gui_height();
-	draw_text(100,100, string(_gui_width) + " " + string(_gui_height))
+
 	
 	draw_text(260,140, string(player_health) + " - " + string(player_max_health));
 	
