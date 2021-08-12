@@ -28,9 +28,11 @@ if(player_2){
 			draw_sprite(s_characters, index_2,270, 90)
 			draw_text(270,110+_i*12, option_2[_i]);
 		}
+
 	}else{
+		draw_sprite(s_characters, player_2.character, 270, 90)
 		draw_text(270, 110, option_2[player_2.character]);
-	}
+		}
 }else{
 	draw_text(225, 115, "Press SPACE to add\nNew Player!!");
 }

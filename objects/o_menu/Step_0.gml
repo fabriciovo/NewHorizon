@@ -83,18 +83,25 @@ if(player_2 && player_2.character < 0){
 	}
 }
 
+if(player_2 && player_2.character > -1){
+
+	if player_2.action_two_pressed_ {
+		player_2.character = -1
+	}
+}
+
 
 if(keyboard_check_pressed(vk_space)){
 	if(player_2){
 		player_2 = noone
 	} else if(!player_2){
-	player_2 = o_player_manager_2
+		player_2 = o_player_manager_2
 	}
 
 }
 
 
-if(keyboard_check_pressed(vk_enter) &&  player_1.character > -1){
+if(keyboard_check_pressed(vk_enter) && player_1.character > -1){
 
 		room_goto(r_world)
 	

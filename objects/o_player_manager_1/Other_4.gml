@@ -22,8 +22,9 @@ if(room == r_world){
 			player_health = player_max_health
 	break;
 	}
-	var _player = instance_create_layer(i_player_1_start_position.x, i_player_1_start_position.y, "Instances", o_player_1);
+	var _player = instance_create_layer(i_space.x, i_space.y, "Instances", o_player_1);
 	_player.max_health_ = player_max_health
 	_player.knockback_ = player_knockback
 	_player.damage_ =  player_damage
+
 }

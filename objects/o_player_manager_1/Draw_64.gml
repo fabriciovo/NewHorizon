@@ -1,15 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
 
-if(room == r_world){
+if(room == r_world && !global.intro_animation){
 	var _gui_width = display_get_gui_width();
 	var _gui_height = display_get_gui_height();
 
 
 	draw_text(player_health_x,player_health_y, string(player_health) + " - " + string(player_max_health));
-	draw_text(player_health_x,player_health_y-40, string(player_damage) + " - " + string("Player Damage"));
-
-
+	
 	var _material_string = string(player_materials);
 	var _text_width = string_width(_material_string);
 	var _x = _gui_width;
@@ -32,6 +32,9 @@ if(room == r_world){
 
 }
 
+
+
+
 switch(character){
 
 	case options.character_1:			
@@ -40,13 +43,13 @@ switch(character){
 	break;
 	case options.character_2:
 			
-		state_ = player.move;	
+	state_ = player.move;	
 
-		break;
-		case options.character_3:
+	break;
+	case options.character_3:
 			
-		state_ = player.move;
+	state_ = player.move;
 
-		break;
+	break;
 
 }

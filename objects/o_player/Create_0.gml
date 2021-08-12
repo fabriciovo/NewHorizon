@@ -9,7 +9,6 @@ direction_facing_ = dir.right;
 player_manager = o_player_manager;
 character_ = player_manager.character;
 
-
 action_one_alarm_ = true;
 action_two_alarm_ = true;
 action_three_alarm_ = true;

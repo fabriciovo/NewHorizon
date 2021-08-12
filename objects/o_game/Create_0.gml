@@ -6,7 +6,7 @@ global.highscore = 0
 global.score = 0
 global.timer = 0
 //instance_create_layer(0, 0, "Instances", o_input);
-
+global.intro_animation = true
 
 var _font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567890>,!':-+";
 global.font = font_add_sprite_ext(s_font, _font_string, true, 1);
