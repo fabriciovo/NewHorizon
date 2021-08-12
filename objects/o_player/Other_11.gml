@@ -7,7 +7,6 @@ switch(character_){
 		
 
 			//audio_play_sound() TODO -- nosso audio(a_swipe, 2, false);
-			audio_play_sound(OperaShootRay,2,false);
 			// Create the arrow
 				var _laser = instance_create_layer(x, y, "Instances", o_laser);
 				_laser.direction = direction_facing_ * 90;
@@ -36,7 +35,6 @@ switch(character_){
 			var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [o_enemy, o_mineral_one, o_mineral_two], _damage, _knockback);
 			_hitbox.visible = true
 			//audio_play_sound() TODO -- nosso audio(a_swipe, 8, false);
-			audio_play_sound(OperaMeeleRay,8,false);
 	
 			switch direction_facing_ {
 				case dir.up: _hitbox.y -= 4; break;
@@ -52,7 +50,6 @@ switch(character_){
 		case options.character_3:
 			instance_create_layer(x, y+2, "Instances", o_bomb);
 			//audio_play_sound() TODO -- nosso audio(a_set_bomb, 5, false);
-			audio_play_sound(OperaBomber,5,false);
 			state_ = player.move;
 
 		break;

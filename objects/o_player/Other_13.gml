@@ -20,7 +20,6 @@ switch(character_){
 
 			break;
 		case options.character_3:
-
 			var _angle = direction_facing_*90;
 			var _life = 3;
 			var _damage = 0;
@@ -28,7 +27,6 @@ switch(character_){
 			var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [o_enemy,], _damage, _knockback);
 			_hitbox.visible = true
 			//audio_play_sound() TODO -- nosso audio(a_swipe, 8, false);
-			
 	
 			switch direction_facing_ {
 				case dir.up: _hitbox.y -= 4; break;

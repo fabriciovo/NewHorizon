@@ -9,7 +9,6 @@ if _x_input == 0 and _y_input == 0 {
 	image_index = 0;
 	image_speed = 0;
 	apply_friction_to_movement_entity();
-	audio_stop_sound(sound_);
 } else {
 	image_speed = 0.6;
 	if _x_input != 0 {
@@ -18,8 +17,6 @@ if _x_input == 0 and _y_input == 0 {
 	get_direction_facing(_input_direction);
 	add_movement_maxspeed(_input_direction, acceleration_, max_speed_);
 	roll_direction_ = _input_direction;
-	if(sound_)
-		if(!audio_is_playing(sound_))	audio_play_sound(sound_,3,false);
 }
 
 if(player_manager.action_one_pressed_ and player_manager.action_one_alarm_ ){

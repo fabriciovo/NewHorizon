@@ -4,7 +4,7 @@
 // You can write your code in this editor
 
 
-if(room == r_world){
+if(room == r_world  and !global.intro_animation){
 	var _gui_width = display_get_gui_width();
 	var _gui_height = display_get_gui_height();
 
