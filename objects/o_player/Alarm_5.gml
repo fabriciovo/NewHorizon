@@ -1,2 +1,2 @@
 /// @description Dash Alarm
-action_three_alarm_ = true
+player_manager.action_three_alarm_ = 1

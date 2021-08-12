@@ -14,6 +14,7 @@
     {"id":{"name":"s_material","path":"sprites/s_material/s_material.yy",},"order":5,},
     {"id":{"name":"s_sword_stand","path":"sprites/s_sword_stand/s_sword_stand.yy",},"order":11,},
     {"id":{"name":"s_tree","path":"sprites/s_tree/s_tree.yy",},"order":13,},
+    {"id":{"name":"o_cd_upgrade_pickup","path":"objects/o_cd_upgrade_pickup/o_cd_upgrade_pickup.yy",},"order":5,},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":1,},
     {"id":{"name":"o_tower_shooter","path":"objects/o_tower_shooter/o_tower_shooter.yy",},"order":0,},
     {"id":{"name":"s_characters","path":"sprites/s_characters/s_characters.yy",},"order":30,},

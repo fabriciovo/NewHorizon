@@ -2,9 +2,9 @@
 // You can write your code in this editor
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(150,100, string(character))
 
-if(room == r_world && !global.intro_animation){
+
+if(room == r_world){
 	var _gui_width = display_get_gui_width();
 	var _gui_height = display_get_gui_height();
 
@@ -26,10 +26,12 @@ if(room == r_world && !global.intro_animation){
 	draw_text(_x-190, _y-12, _mineral_string);
 	
 
-	draw_text(9, _y-28, "1");
-	draw_sprite(s_ui_action, 0, 13, _y-10);
-	draw_sprite(s_ui_tower, 0, 37, _y-10);
-	draw_sprite(s_ui_dash, 0,61 , _y-10);
+
+	draw_sprite(s_ui_action, action_one_alarm_, 13, _y-10);
+	
+	draw_sprite(s_ui_tower, action_two_alarm_, 37, _y-10);
+
+	draw_sprite(s_ui_dash, action_three_alarm_,61 , _y-10);
 
 }
 

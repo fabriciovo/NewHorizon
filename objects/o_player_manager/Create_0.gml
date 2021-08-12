@@ -10,9 +10,13 @@ player_minerals = 0;
 player_max_health = 0
 player_knockback= 0
 player_damage = 0
+player_cd = 1
+player_max_cd = 0.10
 player_health = player_max_health;
 
-
+action_one_alarm_ =1;
+action_two_alarm_ = 1;
+action_three_alarm_ = 1;
 
 player_health_x = 9
 player_health_y = 140

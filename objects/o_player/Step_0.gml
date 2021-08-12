@@ -11,20 +11,20 @@ if(!global.intro_animation){
 	}
 
 
-	if(!action_one_alarm_){
+	if(player_manager.action_one_alarm_ == 0){
 		if alarm[3] == -1{
-			alarm[3] = 120;
+			alarm[3] = global.one_second * player_manager.player_cd;
 		}
 	}
-	if(!action_two_alarm_){
+	if(player_manager.action_two_alarm_ == 0){
 		if alarm[4] == -1{
-			alarm[4] = 120;
+			alarm[4] =global.one_second * player_manager.player_cd;
 		}
 	}
 
-	if(!action_three_alarm_){	
+	if(player_manager.action_three_alarm_ == 0){	
 		if alarm[5] == -1{
-			alarm[5] = 120;
+			alarm[5] = global.one_second * player_manager.player_cd;
 		}	
 	}
 }

@@ -26,5 +26,6 @@ if(room == r_world){
 	_player.max_health_ = player_max_health
 	_player.knockback_ = player_knockback
 	_player.damage_ =  player_damage
+	_player.player_cd = player_cd
 
 }

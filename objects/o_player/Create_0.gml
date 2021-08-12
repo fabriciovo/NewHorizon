@@ -9,9 +9,7 @@ direction_facing_ = dir.right;
 player_manager = noone;
 character_ = -1;
 
-action_one_alarm_ = true;
-action_two_alarm_ = true;
-action_three_alarm_ = true;
+
 
 roll_direction_ = 0;
 roll_speed_ = 6;

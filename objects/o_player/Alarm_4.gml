@@ -1,3 +1,3 @@
 /// @description Tower Alarm
 
-action_two_alarm_ = true
+player_manager.action_two_alarm_ = 1

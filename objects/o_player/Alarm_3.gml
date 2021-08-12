@@ -1,2 +1,2 @@
 /// @description Action Alarm
-action_one_alarm_ = true
+player_manager.action_one_alarm_ = 1
