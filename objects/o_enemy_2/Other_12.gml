@@ -1,16 +1,16 @@
 /// @description Attack state
-if not instance_exists(o_player) {
+if not instance_exists(target_) {
 	state_ = enemy_2.move;
 	exit;
 }
 
-if distance_to_object(o_player) > range_{
+if distance_to_object(target_) > range_{
 	state_ = enemy_2.move;	
 }
 
 
 
-var _direction = point_direction(x, y, o_player.x, o_player.y);
+var _direction = point_direction(x, y, target_.x, target_.y);
 var _x_speed = lengthdir_x(speed_, _direction);
 if _x_speed != 0 {
 	image_xscale = sign(_x_speed);

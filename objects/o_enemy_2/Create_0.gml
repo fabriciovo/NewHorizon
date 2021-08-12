@@ -4,7 +4,7 @@ max_health_ = 6
 health_ = max_health_;
 knockback_ = 3
 damage_ = 3
-
+target_ = o_player
 
 enum enemy_2 {
 	hit,

@@ -8,7 +8,7 @@ if alarm[1] <= 0 {
 	direction_ = random(360);
 }
 
-if instance_exists(o_player) and distance_to_object(o_player) <= range_ {
+if instance_exists(target_) and distance_to_object(target_) <= range_ {
 	state_ = enemy_2.attack;	
 }
 
