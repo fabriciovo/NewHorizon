@@ -151,12 +151,10 @@
     {"id":{"name":"s_ui_dash","path":"sprites/s_ui_dash/s_ui_dash.yy",},"order":1,},
     {"id":{"name":"Enemie_Melee","path":"sprites/Enemie_Melee/Enemie_Melee.yy",},"order":11,},
     {"id":{"name":"o_laser","path":"objects/o_laser/o_laser.yy",},"order":3,},
-
     {"id":{"name":"o_mineral_one","path":"objects/o_mineral_one/o_mineral_one.yy",},"order":0,},
     {"id":{"name":"o_mineral_two","path":"objects/o_mineral_two/o_mineral_two.yy",},"order":1,},
-    {"id":{"name":"OperaMeeleMove","path":"sounds/OperaMeeleMove/OperaMeeleMove.yy",},"order":8,},
-    {"id":{"name":"SpaceShip","path":"sounds/SpaceShip/SpaceShip.yy",},"order":16,},
-
+    {"id":{"name":"OperaMeeleMove","path":"sounds/OperaMeeleMove/OperaMeeleMove.yy",},"order":7,},
+    {"id":{"name":"SpaceShip","path":"sounds/SpaceShip/SpaceShip.yy",},"order":15,},
     {"id":{"name":"s_shooter_down","path":"sprites/s_shooter_down/s_shooter_down.yy",},"order":0,},
     {"id":{"name":"Melee_Attack","path":"sprites/Melee_Attack/Melee_Attack.yy",},"order":3,},
     {"id":{"name":"o_talvez_vamos_usar","path":"objects/o_talvez_vamos_usar/o_talvez_vamos_usar.yy",},"order":2,},

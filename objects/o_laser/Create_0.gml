@@ -1,5 +1,5 @@
 event_inherited();
-targets_ = [o_enemy,o_mineral_one, o_mineral_two];
+targets_ = [o_enemy,o_enviroment];
 knockback_ = 0;
 damage_ = 0;
 hp_ = 1;
