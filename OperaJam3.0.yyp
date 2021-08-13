@@ -1,6 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"s_fighter","path":"sprites/s_fighter/s_fighter.yy",},"order":28,},
     {"id":{"name":"Bomber_Turret_V0_1","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"order":4,},
     {"id":{"name":"ShipPush","path":"sounds/ShipPush/ShipPush.yy",},"order":14,},
     {"id":{"name":"Enemy_Ranged","path":"sprites/Enemy_Ranged/Enemy_Ranged.yy",},"order":12,},
@@ -41,7 +40,6 @@
     {"id":{"name":"s_enemy_3","path":"sprites/s_enemy_3/s_enemy_3.yy",},"order":7,},
     {"id":{"name":"s_enemy_3_attack","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"order":9,},
     {"id":{"name":"s_grass_effect","path":"sprites/s_grass_effect/s_grass_effect.yy",},"order":1,},
-    {"id":{"name":"s_bomber","path":"sprites/s_bomber/s_bomber.yy",},"order":29,},
     {"id":{"name":"s_hit_effect","path":"sprites/s_hit_effect/s_hit_effect.yy",},"order":3,},
     {"id":{"name":"s_melee_attack_up","path":"sprites/s_melee_attack_up/s_melee_attack_up.yy",},"order":4,},
     {"id":{"name":"ColectItem","path":"sounds/ColectItem/ColectItem.yy",},"order":0,},
