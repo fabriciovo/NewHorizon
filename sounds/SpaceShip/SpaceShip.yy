@@ -13,8 +13,8 @@
   "soundFile": "",
   "duration": 0.0,
   "parent": {
-    "name": "OperaJam3.0",
-    "path": "OperaJam3.0.yyp",
+    "name": "GameJamOriginal",
+    "path": "folders/Sounds/GameJamOriginal.yy",
   },
   "resourceVersion": "1.0",
   "name": "SpaceShip",
