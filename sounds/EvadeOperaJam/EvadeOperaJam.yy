@@ -1,5 +1,5 @@
 {
-  "compression": 1,
+  "compression": 0,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "EvadeOperaJam.mp3",
-  "duration": 2.377125,
+  "duration": 0.20898,
   "parent": {
     "name": "GameJamOriginal",
     "path": "folders/Sounds/GameJamOriginal.yy",
