@@ -38,7 +38,7 @@
     "spriteId": {"name":"s_shooter_attack_right","path":"sprites/s_shooter_attack_right/s_shooter_attack_right.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 6.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
