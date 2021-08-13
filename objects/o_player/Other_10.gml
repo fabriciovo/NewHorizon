@@ -24,16 +24,22 @@ if _x_input == 0 and _y_input == 0 {
 
 if(player_manager.action_one_pressed_ and player_manager.action_one_alarm_ ){
 	player_manager.action_one_alarm_ = 0
+	
 	state_ = player.action
 }
 if(player_manager.action_two_pressed_ and player_manager.action_two_alarm_){
-	player_manager.action_two_alarm_ = 0
-
-	state_ = player.evade
+	if(player_manager.player_materials >= 1){
+		player_manager.player_materials -= 1
+		player_manager.action_two_alarm_ = 0
+		state_ = player.evade
+	}
 }
 if(player_manager.action_three_pressed_ and player_manager.action_three_alarm_){
-	player_manager.action_three_alarm_ = 0
-	state_ = player.tower
+	if(player_manager.player_materials >= 3){
+		player_manager.player_materials -= 3
+		player_manager.action_three_alarm_ = 0
+		state_ = player.tower
+	}
 }
 
 
