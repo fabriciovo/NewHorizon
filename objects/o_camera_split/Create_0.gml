@@ -2,9 +2,10 @@
 playerList_[0] = o_player_1;
 playerList_[1] = o_player_2;
 
-view_enabled = true;
+_width = 320;
+_height = 180;
+_scale = view_wport[0] / _width;
 
-var _width = 960, _height = 540, _scale = 1.5;
 
 global.Cameras = undefined;
 for(var _i = 0; _i < array_length_1d(playerList_); ++_i) {
