@@ -91,7 +91,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 10,
-    "yorigin": 12,
+    "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_melee_attack_right","path":"sprites/s_melee_attack_right/s_melee_attack_right.yy",},
