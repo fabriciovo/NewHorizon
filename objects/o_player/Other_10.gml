@@ -43,6 +43,5 @@ if(player_manager.action_three_pressed_ and player_manager.action_three_alarm_){
 }
 
 
-//inventory_use_item(o_input.action_two_pressed_, global.item[1], action.two);
 
 move_movement_entity(false);
