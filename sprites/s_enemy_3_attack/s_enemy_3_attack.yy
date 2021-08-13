@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 11,
-  "height": 7,
+  "width": 16,
+  "height": 16,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -103,9 +103,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"07cfee9c-0822-4710-9eae-3a023ca0f7d8","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"07cfee9c-0822-4710-9eae-3a023ca0f7d8","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"LayerId":{"name":"dcce5f7a-05af-4234-88df-8c1ac98017f5","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_enemy_3_attack","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"resourceVersion":"1.0","name":"07cfee9c-0822-4710-9eae-3a023ca0f7d8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b7f6aa49-695c-409b-81a0-4e0eccfe21fb","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b7f6aa49-695c-409b-81a0-4e0eccfe21fb","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"LayerId":{"name":"dcce5f7a-05af-4234-88df-8c1ac98017f5","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_enemy_3_attack","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"resourceVersion":"1.0","name":"b7f6aa49-695c-409b-81a0-4e0eccfe21fb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_enemy_3_attack","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},
@@ -120,7 +120,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2a653e9f-34f6-4e3c-8717-e1b3a2d0d7a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"07cfee9c-0822-4710-9eae-3a023ca0f7d8","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8e90562d-08db-4553-b811-8626c38becd6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7f6aa49-695c-409b-81a0-4e0eccfe21fb","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -134,7 +134,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 0,
-    "yorigin": 3,
+    "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_enemy_3_attack","path":"sprites/s_enemy_3_attack/s_enemy_3_attack.yy",},

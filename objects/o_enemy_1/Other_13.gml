@@ -11,6 +11,6 @@ if animation_hit_frame(1) {
 
 if animation_hit_frame(image_number - 1) {
 	state_ = enemy_1.idle;
-	sprite_index = s_enemy_1;
+	sprite_index = Enemie_Melee;
 	alarm[1] = 2*global.one_second;
 }

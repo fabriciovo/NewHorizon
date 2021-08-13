@@ -8,6 +8,7 @@ if(player_1.character < 0){
 		} else {
 			draw_set_color(menu_dark_color_);	
 		}
+		
 		draw_sprite(s_characters, index_1, x, 90)
 		draw_text(x, 110+_i*12, option_1[_i]);
 	}
