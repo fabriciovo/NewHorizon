@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_grass",
-    "path": "sprites/s_grass/s_grass.yy",
+    "name": "s_mineral_one",
+    "path": "sprites/s_mineral_one/s_mineral_one.yy",
   },
   "solid": false,
   "visible": true,

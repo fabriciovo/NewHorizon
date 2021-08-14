@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_bush",
-    "path": "sprites/s_bush/s_bush.yy",
+    "name": "s_mineral_two",
+    "path": "sprites/s_mineral_two/s_mineral_two.yy",
   },
   "solid": true,
   "visible": true,

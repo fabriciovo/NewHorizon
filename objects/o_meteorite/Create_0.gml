@@ -16,5 +16,11 @@ if(instance_exists(o_player_2)){
 	array_push(target_,o_player_2)
 }
 
+if(not instance_exists(o_player_1) and not instance_exists(o_player_2)){
+	move_towards_point(random_range(0,320),random_range(0,180), speed_)
+}else{
 var _index = random_range(0,array_length_1d(target_))
 move_towards_point(target_[_index].x,target_[_index].y,speed_);
+}
+
+

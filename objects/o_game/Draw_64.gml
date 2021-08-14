@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(room == r_title){
+if(room == r_menu){
 draw_text(0,0, "High Score: " + string(global.highscore));
 }
 

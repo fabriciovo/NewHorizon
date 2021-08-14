@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "s_tree",
-    "path": "sprites/s_tree/s_tree.yy",
+    "name": "s_asteroid",
+    "path": "sprites/s_asteroid/s_asteroid.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "s_solid",
-    "path": "sprites/s_solid/s_solid.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
