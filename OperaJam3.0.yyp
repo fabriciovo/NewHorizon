@@ -63,7 +63,7 @@
     {"id":{"name":"o_player_manager_2","path":"objects/o_player_manager_2/o_player_manager_2.yy",},"order":2,},
     {"id":{"name":"s_tower_fighter_attack","path":"sprites/s_tower_fighter_attack/s_tower_fighter_attack.yy",},"order":1,},
     {"id":{"name":"o_tower_fighter","path":"objects/o_tower_fighter/o_tower_fighter.yy",},"order":3,},
-    {"id":{"name":"s_font","path":"sprites/s_font/s_font.yy",},"order":5,},
+
     {"id":{"name":"s_hud","path":"sprites/s_hud/s_hud.yy",},"order":1,},
     {"id":{"name":"s_ui_action","path":"sprites/s_ui_action/s_ui_action.yy",},"order":2,},
     {"id":{"name":"s_hud_edge","path":"sprites/s_hud_edge/s_hud_edge.yy",},"order":2,},
@@ -153,6 +153,9 @@
     {"id":{"name":"SpaceShip","path":"sounds/SpaceShip/SpaceShip.yy",},"order":15,},
     {"id":{"name":"s_shooter_down","path":"sprites/s_shooter_down/s_shooter_down.yy",},"order":0,},
     {"id":{"name":"Melee_Attack","path":"sprites/Melee_Attack/Melee_Attack.yy",},"order":3,},
+
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":6,},
+
     {"id":{"name":"o_asteroid","path":"objects/o_asteroid/o_asteroid.yy",},"order":3,},
     {"id":{"name":"s_melee_right","path":"sprites/s_melee_right/s_melee_right.yy",},"order":1,},
     {"id":{"name":"s_tower_upgrade","path":"sprites/s_tower_upgrade/s_tower_upgrade.yy",},"order":10,},
