@@ -1,6 +1,6 @@
 initialize_movement_entity(1, .5, o_solid);
 initialize_hurtbox_entity();
-
+depth -= y
 image_speed = 0;
 
 max_health_ = 2;

@@ -31,10 +31,10 @@ if(room == r_world  and !global.intro_animation){
 	draw_sprite_ext(s_ui_action, action_one_alarm_, 13, _y-10, 2, 2,image_angle, image_blend, image_alpha);
 	
 	//draw_sprite(s_ui_tower, action_two_alarm_, 37, _y-10);
-	draw_sprite_ext(s_ui_tower, action_one_alarm_, 37, _y-10, 2, 2,image_angle, image_blend, image_alpha);
+	draw_sprite_ext(s_ui_tower, action_two_alarm_, 37, _y-10, 2, 2,image_angle, image_blend, image_alpha);
 
 	//draw_sprite(s_ui_dash, action_three_alarm_,61 , _y-10);
-	draw_sprite_ext(s_ui_dash, action_one_alarm_, 61, _y-10, 2, 2,image_angle, image_blend, image_alpha);
+	draw_sprite_ext(s_ui_dash, action_three_alarm_, 61, _y-10, 2, 2,image_angle, image_blend, image_alpha);
 
 }
 

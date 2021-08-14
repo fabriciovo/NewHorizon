@@ -4,5 +4,5 @@ knockback_ = 3;
 damage_ = 3 * global.level;
 destroy_on_contact_ = true;
 
-image_xscale = global.level
-image_yscale = global.level
+image_xscale = 2
+image_yscale = 2

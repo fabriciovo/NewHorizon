@@ -29,21 +29,18 @@ switch(character_){
 
 	break;
 	case options.character_2:
-	image_speed = .8;
+	image_speed = 3;
 
-		if animation_hit_frame(0) {
+		if animation_hit_frame(3) {
 			var _angle = direction_facing_*90;
-			var _life = 3;
+			var _life = 6;
 			var _damage = player_manager.player_damage;
 			var _knockback = player_manager.player_knockback;
 			var _hitbox = create_hitbox(Melee_Attack, x, y, _angle, _life, [o_enemy, o_enviroment], _damage, _knockback);
 			_hitbox.visible = true
 			//audio_play_sound() TODO -- nosso audio(a_swipe, 8, false);
 			audio_play_sound(OperaMeeleRay,2,false);
-			switch direction_facing_ {
-				case dir.up: _hitbox.y -= 4; break;
-				default: _hitbox.y -= 8; break;
-			}
+
 		}
 
 		if animation_hit_frame(image_number - 1) {

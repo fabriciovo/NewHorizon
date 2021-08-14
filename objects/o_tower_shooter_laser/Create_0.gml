@@ -3,3 +3,5 @@
 event_inherited();
 target_ = instance_nearest(x,y,o_enemy)
 move_towards_point(target_.x,target_.y, 5);
+image_xscale = 2
+image_yscale = 2

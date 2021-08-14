@@ -7,9 +7,10 @@ distance_ = 50
 state_ = tower_state.idle
 knockback_ = 3
 damage_ = 1
-
+target_ = undefined
+image_speed = 0
+can_attack_ = true
 enum tower_state {
 	idle,
 	attack,
-	hit
 }

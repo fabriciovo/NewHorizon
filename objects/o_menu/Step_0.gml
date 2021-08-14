@@ -110,7 +110,13 @@ if(keyboard_check_pressed(vk_space)){
 
 
 if(keyboard_check_pressed(vk_enter) && player_1.character > -1){
-audio_play_sound(MenuConfirm,3,false);
+	if(player_2){
+		if(player_2.character > -1){
+			audio_play_sound(MenuConfirm,3,false);
+			room_goto(r_world)
+		}
+	}else{
+		audio_play_sound(MenuConfirm,3,false);
 		room_goto(r_world)
-	
+		}
 }
