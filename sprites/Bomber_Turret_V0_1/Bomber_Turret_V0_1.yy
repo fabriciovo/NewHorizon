@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 15,
   "bbox_top": 0,
   "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
+  "width": 16,
   "height": 16,
   "textureGroupId": {
     "name": "Default",
@@ -24,24 +24,28 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"496a0b18-d711-44fc-ba11-949d909cb373","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"496a0b18-d711-44fc-ba11-949d909cb373","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"LayerId":{"name":"f86919b8-6082-4c2c-bd8b-e1951da3128b","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Bomber_Turret_V0_1","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","name":"496a0b18-d711-44fc-ba11-949d909cb373","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"681353a5-7a40-4796-b15b-51d60d3a2a46","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"681353a5-7a40-4796-b15b-51d60d3a2a46","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"LayerId":{"name":"51480ac1-1ed0-4d9b-a437-bbfb25b35bc2","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Bomber_Turret_V0_1","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","name":"681353a5-7a40-4796-b15b-51d60d3a2a46","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6840f7d9-833f-4508-90b0-c844a8f91167","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6840f7d9-833f-4508-90b0-c844a8f91167","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"LayerId":{"name":"51480ac1-1ed0-4d9b-a437-bbfb25b35bc2","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Bomber_Turret_V0_1","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","name":"6840f7d9-833f-4508-90b0-c844a8f91167","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Bomber_Turret_V0_1","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d01e10ff-e4fa-4f16-8954-97920580858b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"496a0b18-d711-44fc-ba11-949d909cb373","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"23c528fb-7704-49cc-8e3b-1338e92859a5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"681353a5-7a40-4796-b15b-51d60d3a2a46","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ff9a97a-d6eb-4540-bd9a-4f09a25ed0a1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6840f7d9-833f-4508-90b0-c844a8f91167","path":"sprites/Bomber_Turret_V0_1/Bomber_Turret_V0_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f86919b8-6082-4c2c-bd8b-e1951da3128b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"51480ac1-1ed0-4d9b-a437-bbfb25b35bc2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

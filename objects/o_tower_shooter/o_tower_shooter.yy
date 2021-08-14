@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_tower_shooter",
-    "path": "sprites/s_tower_shooter/s_tower_shooter.yy",
+    "name": "Ranged_Turret_v0_1",
+    "path": "sprites/Ranged_Turret_v0_1/Ranged_Turret_v0_1.yy",
   },
   "solid": false,
   "visible": true,

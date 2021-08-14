@@ -336,7 +336,7 @@
     "eventStubScript": null,
     "parent": {"name":"s_font","path":"sprites/s_font/s_font.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "s_font",
     "tags": [],
     "resourceType": "GMSequence",
   },

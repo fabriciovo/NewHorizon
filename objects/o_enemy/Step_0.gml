@@ -6,3 +6,4 @@ if health_ <= 0 && state_ != enemy.hit {
 if state_ != noone {
 	event_user(state_);
 }
+wrap();

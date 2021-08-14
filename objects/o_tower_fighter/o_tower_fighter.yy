@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Ranged_Turret_v0_1",
-    "path": "sprites/Ranged_Turret_v0_1/Ranged_Turret_v0_1.yy",
+    "name": "Melee_Turret_V0_1",
+    "path": "sprites/Melee_Turret_V0_1/Melee_Turret_V0_1.yy",
   },
   "solid": false,
   "visible": true,
