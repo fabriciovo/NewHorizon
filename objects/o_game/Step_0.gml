@@ -11,6 +11,8 @@ if(room == r_world){
 		    last = global.highscore;
 		}
 		ini_close();
+		instance_destroy(o_player_manager_1)
+		instance_destroy(o_player_manager_2)
 		room_goto(r_menu)
 	}
 }
