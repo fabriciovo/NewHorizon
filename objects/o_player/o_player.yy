@@ -2,7 +2,10 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_col",
+    "path": "sprites/s_col/s_col.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

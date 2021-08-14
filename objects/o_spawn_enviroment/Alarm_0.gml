@@ -7,4 +7,4 @@ if(place_free(_x, _y)){
 	instance_create_layer(_x,_y, "Instances", enemy_[spawn]);
 }
 
-alarm[0] =600
+alarm[0] =1000

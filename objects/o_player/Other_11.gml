@@ -6,6 +6,7 @@ switch(character_){
 	case options.character_1:
 		image_speed = .2;
 		//audio_play_sound() TODO -- nosso audio(a_swipe, 2, false);
+		audio_play_sound(OperaShootRay,2,false);
 		// Create the arrow
 
 		var _laser = instance_create_layer(x, y, "Instances", o_laser);
