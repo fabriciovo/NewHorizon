@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "SelectMenu",
+    "path": "sprites/SelectMenu/SelectMenu.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

@@ -9,4 +9,4 @@ if(place_free(_x, _y)){
 	instance_create_layer(_x,_y, "Instances", array_[spawn]);
 }
 
-alarm[0] = timer_
+alarm[0] = choose(60,120,360)

@@ -1,9 +1,11 @@
 event_inherited();
 initialize_movement_entity(.25, .5, o_solid);
-max_health_ = 6
+
+
+max_health_ = choose(3,5,4,6,10,15,9)
 health_ = max_health_;
-knockback_ = 3
-damage_ = 3
+knockback_ = choose(3,5,4,6,10,15,9)
+damage_ = choose(3,5,4,6,10,15,9)
 target_ = o_player
 
 enum enemy_2 {

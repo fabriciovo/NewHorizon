@@ -5,10 +5,12 @@ enum enemy_3 {
 	move,
 	attack,
 }
-max_health_ = 3
+
+max_health_ = choose(3,5,4,6,10,15,9)
 health_ = max_health_;
-knockback_ = 6
-damage_ = 5
+knockback_ = choose(3,5,4,6,10,15,9)
+damage_ = choose(3,5,4,6,10,15,9)
+
 targets_ = [o_player]
 starting_state_ = enemy_3.move;
 state_ = starting_state_;

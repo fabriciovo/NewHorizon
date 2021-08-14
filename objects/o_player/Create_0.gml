@@ -5,7 +5,7 @@ initialize_hurtbox_entity();
 image_speed = 0;
 acceleration_ = .5;
 max_speed_ = 1.5;
-direction_facing_ = dir.right;
+direction_facing_ = dir.down;
 player_manager = noone;
 character_ = -1;
 

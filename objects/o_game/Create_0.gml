@@ -1,10 +1,9 @@
 global.one_second = game_get_speed(gamespeed_fps);
 audio_play_sound(OperaJamSong,1000,true)
-global.destroyed = [];
-global.level = 1
-global.highscore = 0
+ini_open("data.ini");
+global.highscore = ini_read_real("data", "highscore", 0 );
+ini_close();
 global.score = 0
-global.timer = 0
 //instance_create_layer(0, 0, "Instances", o_input);
 global.intro_animation = true
 

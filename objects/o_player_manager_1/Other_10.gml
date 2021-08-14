@@ -9,6 +9,7 @@ down_ = keyboard_check(ord("S"));
 up_pressed_ = keyboard_check_pressed(ord("W"));
 down_pressed_ = keyboard_check_pressed(ord("S"));
 
-action_one_pressed_ = keyboard_check_pressed(ord("E"));
-action_two_pressed_ = keyboard_check_pressed(ord("R"));
-action_three_pressed_ = keyboard_check_pressed(ord("F"));
+action_one_pressed_ = keyboard_check_pressed(vk_space);
+action_two_pressed_ = keyboard_check_pressed(vk_shift);
+action_three_pressed_ = keyboard_check_pressed(ord("E"));
+														   

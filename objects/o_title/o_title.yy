@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "TitleMenu",
+    "path": "sprites/TitleMenu/TitleMenu.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
